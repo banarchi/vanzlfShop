@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
 
 
+  
+
 html {
     font-size: 18px;
-}
+      }
+      
+
 
 body {
     background-color: #272727;
@@ -27,7 +31,7 @@ header{
 .banner {
     width: 100%;
     height: 90vh;
-    background: url('../img/hector-martinez-EG49vTtKdvI-unsplash.jpg');
+    background: url('../img/1614408047_11-p-biznes-fon-temnii-12.jpg');
     background-size: cover;
     background-position: center center;
     display: flex;

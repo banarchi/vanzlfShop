@@ -1,8 +1,71 @@
+.custom-modal .modal-content {
+    background-color: #333; /* Темно-серый цвет фона */
+    color: #fff; /* Белый текст */
+  }
+
+  .custom-modal .modal-header, 
+  .custom-modal .modal-body, 
+  .custom-modal .modal-footer {
+    background-color: #333; /* Темно-серый фон для всех частей модального окна */
+  }
+
+  .custom-modal .modal-title {
+    color: #fff; /* Белый цвет заголовка */
+  }
+
+  .custom-modal .btn-close {
+    filter: invert(1); /* Инвертировать цвета кнопки закрытия для видимости на темном фоне */
+  }
+
+  .btn-custom {
+    background-color: #ff0800; /* Красный цвет */
+    border-color: #ff0800; /* Цвет границы кнопки */
+    color: white; /* Цвет текста на кнопке */
+  }
+
+  .btn-custom:hover {
+    background-color: #ff0800; /* Более тёмный красный цвет при наведении */
+    border-color: #ff0800; /* Цвет границы при наведении */
+  }
+
+  /* Стили для всех кнопок */
+  .btn {
+    background-color: #ff0800; /* Красный цвет */
+    border-color: #ff0800; /* Цвет границы */
+    color: white; /* Белый цвет текста */
+  }
+
+  .btn:hover,
+  .btn:focus {
+    background-color: #ff0800; /* Более тёмный красный цвет при наведении */
+    border-color: #ff0800; /* Цвет границы при наведении */
+  }
+
+  .is-invalid {
+    border-color: #ff0019; /* Красный цвет границы для некорректных полей */
+  }
+
+  .invalid-feedback {
+    color: #ff0019; /* Красный цвет текста ошибки */
+  }
+/* Пример стиля для красной кнопки */
+.btn-custom {
+    background-color: #ff0800; /* Красный цвет */
+    border-color: #ff0800; /* Цвет границы кнопки */
+    color: white; /* Цвет текста на кнопке */
+  }
+  
+  .btn-custom:hover {
+    background-color: #c9302c; /* Более тёмный красный цвет при наведении */
+    border-color: #ff0800; /* Цвет границы при наведении */
+  }
+  
 .cart-items-list{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     gap: 20;
+    
 }
 
 .cart-item{
@@ -13,6 +76,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .cart-page{

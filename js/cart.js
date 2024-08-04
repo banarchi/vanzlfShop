@@ -12,7 +12,6 @@ function get_item(item) {
         <input data-item="${item.title}" class="form-control quantity-input" type="number" name="quantity" min="0" value="${item.quantity}">
         </div>
         <div class="cart-item-price" data-price="${item.price}">${item.price * item.quantity} грн</div>
-        <img class="delete" width="50" src="img/99205_recycle_bin_full_icon.png" >
         </div>`
 }
 
@@ -66,6 +65,9 @@ cart_list.addEventListener('change', (event) => {
         if (newQuantity > 0) {
             cart.updateQuantity(itemTitle, newQuantity)
             showCartList() // Оновити список товарів у кошику
+        } else {
+            cart.updateQuantity(itemTitle,newQuantity)
+            showCartList()
         }
     });
 
